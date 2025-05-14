@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  justify-items: center;
+  margin-top: 20px;
+}
+.student-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+.student-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  min-width: 80px;
+  vertical-align: top;
+}
+th.fruit-header {
+  background-color: #f0f0f0;
+  font-size: 1.5rem;
+}
+.fruit-cell {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
